@@ -127,3 +127,59 @@ button {
 .register p a:hover {
     text-decoration: underline;
 } 
+
+@media (max-width: 1080px) {
+
+    .form-box {
+        position: relative;
+        width: 300px;
+        height: 350px;
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        backdrop-filter: blur(7px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 2em;
+        color: #f2f2f2;
+        text-align: center;
+    }
+    
+    .inputbox {
+        position: relative;
+        margin: 20px 0;
+        width: 285px;
+        border-botton: 2px solid #f2f2f2;
+    }
+    
+    .inputbox label {
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        color: #f2f2f2;
+        font-size: 1em;
+        pointer-events: none;
+        transition: .5s;
+    }
+
+    button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 40px;
+        border-radius: 40px;
+        background: #f2f2f2;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: 600;
+        
+      }
+}
